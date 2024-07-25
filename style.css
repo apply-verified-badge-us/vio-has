@@ -22,7 +22,7 @@
 
 ::before,
 ::after {
-    --tw-content: "";
+    --tw-content: '';
 }
 
 /*
@@ -224,9 +224,9 @@ select {
 */
 
 button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
+[type='button'],
+[type='reset'],
+[type='submit'] {
     -webkit-appearance: button;
     /* 1 */
     background-color: transparent;
@@ -273,7 +273,7 @@ Correct the cursor style of increment and decrement buttons in Safari.
 2. Correct the outline style in Safari.
 */
 
-[type="search"] {
+[type='search'] {
     -webkit-appearance: textfield;
     /* 1 */
     outline-offset: -2px;
@@ -413,9 +413,9 @@ audio,
 iframe,
 embed,
 object {
-    display: block;
-    /* 1 */
-    vertical-align: middle;
+    /* display: block;
+  1 */
+    vertical-align: left;
     /* 2 */
 }
 
@@ -430,10 +430,6 @@ video {
 }
 
 /* Make elements with the HTML hidden attribute stay hidden by default */
-
-[hidden] {
-    display: none;
-}
 
 *,
 ::before,
@@ -714,8 +710,8 @@ video {
 }
 
 .mx-\[4\.50rem\] {
-    margin-left: 4.5rem;
-    margin-right: 4.5rem;
+    margin-left: 4.50rem;
+    margin-right: 4.50rem;
 }
 
 .mx-auto {
@@ -804,7 +800,7 @@ video {
 }
 
 .mt-\[0\.30rem\] {
-    margin-top: 0.3rem;
+    margin-top: 0.30rem;
 }
 
 .mt-\[0\.6rem\] {
@@ -837,10 +833,6 @@ video {
 
 .contents {
     display: contents;
-}
-
-.hidden {
-    display: none;
 }
 
 .h-10 {
@@ -1773,25 +1765,16 @@ video {
     .sm\:block {
         display: block;
     }
-    .sm\:hidden {
-        display: none;
-    }
 }
 
 @media (min-width: 768px) {
     .md\:block {
         display: block;
     }
-    .md\:hidden {
-        display: none;
-    }
 }
 
 @media (min-width: 1024px) {
     .lg\:block {
         display: block;
-    }
-    .lg\:hidden {
-        display: none;
     }
 }
